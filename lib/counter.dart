@@ -14,7 +14,7 @@ class _CounterClassState extends State<CounterClass> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Counter"),
+        title: Text("Counter App", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
         centerTitle: true,
         backgroundColor: Colors.teal,
       ),
